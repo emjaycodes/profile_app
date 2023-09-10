@@ -59,7 +59,6 @@ class _GitHubWebViewState extends State<GitHubWebView> {
         children: [
            WebViewWidget(
           controller: controller,
-          // javascriptMode: JavascriptMode.unrestricted,
         ),
         if (loadingPercentage < 100)
           LinearProgressIndicator(

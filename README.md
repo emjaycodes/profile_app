@@ -1,6 +1,6 @@
-# My Mobile Internship Project
+# HNG Mobile Internship Project
 
-Welcome to my mobile internship project! In this project, I've created a Flutter mobile application that showcases my Slack identity, integrates my Slack profile picture, and includes a "Open GitHub" button to view my GitHub profile.
+I've created a Flutter mobile application that showcases my Slack identity, integrates my Slack profile picture, and includes a "Open GitHub" button to view my GitHub profile.
 
 ## Getting Started
 

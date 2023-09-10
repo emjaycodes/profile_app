@@ -13,6 +13,6 @@ Before you begin, ensure you have Flutter installed. If you haven't already, you
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/emjaycodes/mobile-internship-project.git
-cd mobile-internship-project
+git clone https://github.com/emjaycodes/profile_app.git
+cd profile_app
   

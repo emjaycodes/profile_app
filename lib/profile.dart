@@ -60,10 +60,14 @@ class ProfileCard extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             const CircleAvatar(
-              backgroundColor: kprimaryAccentColor,
-              radius: 70,
-              backgroundImage: AssetImage(
-                'assets/slack.png', // Replace with your asset path
+              radius: 75,
+              backgroundColor: kprimaryColor,
+              child: CircleAvatar(
+                backgroundColor: kprimaryAccentColor,
+                radius: 70,
+                backgroundImage: AssetImage(
+                  'assets/slack.png', // Replace with your asset path
+                ),
               ),
             ),
             SizedBox(

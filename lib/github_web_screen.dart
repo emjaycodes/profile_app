@@ -5,9 +5,8 @@ import 'package:webview_flutter/webview_flutter.dart';
 
 
 class GitHubWebView extends StatefulWidget {
-  // final String url;
 
-  GitHubWebView();
+  const GitHubWebView({super.key});
 
   @override
   State<GitHubWebView> createState() => _GitHubWebViewState();
@@ -38,7 +37,6 @@ class _GitHubWebViewState extends State<GitHubWebView> {
         });
       }
     ))
-    // ..setJavaScriptMode(JavaScriptMode.unrestricted)
       ..loadRequest(
         Uri.parse('https://github.com/emjaycodes'),
       );
